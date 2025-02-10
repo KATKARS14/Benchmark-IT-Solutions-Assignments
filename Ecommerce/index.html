@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic eCommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="total">0.00</span></p>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" class="box" placeholder="Email-ID">
+            <input type="password" class="box" placeholder="Password">
+            <p>Forget your Password <a href="#">Click here</a></p>
+            <p>Don't have any Account <a href="#">Create New Account</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+    </header>
+
+    <div class="container" id="products"></div>
+    <div class="shopping-cart">
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="total">
+
+        </div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
