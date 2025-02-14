@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Expense History</h1>
+
+        <select id="filter-category">
+            <option value="All">All Categories</option>
+            <option value="Food">Food</option>
+            <option value="Travel">Travel</option>
+            <option value="Bills">Bills</option>
+            <option value="Shopping">Shopping</option>
+        </select>
+
+        <ul id="expense-list"></ul>
+
+        <h2>Total Expenses: <span id="total-expenses">0</span></h2>
+    </div>
+
+    <script type="module" src="exp.js"></script>
+</body>
+
+</html>
