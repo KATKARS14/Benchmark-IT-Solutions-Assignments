@@ -1,4 +1,3 @@
-// admin.ts
 import { fetchProducts, deleteProduct, updateProduct } from './api';
 
 const productListAdmin = document.getElementById('product-list-admin')!;
